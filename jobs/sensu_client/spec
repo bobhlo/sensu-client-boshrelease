@@ -10,7 +10,7 @@ templates:
   helpers/ctl_utils.sh:      helpers/ctl_utils.sh
 
   etc/client.json.erb:       etc/sensu/conf.d/client.json
-  etc/rabbitmq.json.erb:     etc/sensu/conf.d/rabbitmq.json
+  etc/config.json.erb:       etc/sensu/config.json
 
 packages:
   - sensu-libyaml
